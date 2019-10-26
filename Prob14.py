@@ -7,6 +7,7 @@ def collatz(num):
 
 collatzChainLens = dict()
 
+# The process below could be further improved by adding all the steps in a chain to the dict not just the start
 for i in range(1, 1000001):
     target = i
     collatzChainLens[i] = 1

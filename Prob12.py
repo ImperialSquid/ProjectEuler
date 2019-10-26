@@ -2,6 +2,7 @@ from functools import reduce
 from math import sqrt
 
 
+# Code for factorising taken from github, super cool!
 def factors(n):
     step = 2 if n % 2 else 1
     return set(reduce(list.__add__,
